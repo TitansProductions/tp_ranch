@@ -9,7 +9,7 @@
 
 On `client/escrow_ignore.lua` file, we provide you (3) functions that you can implement the script of yours or another developer's for using the bucket properly.
 
-By default, we provide you TP Farming support in case you are having it.
+*By default, we provide you TP Farming support in case you are having it.*
 
 ## How to clear the area around the ranch or add new furnitures - objects.
 

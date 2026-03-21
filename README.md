@@ -33,6 +33,9 @@ The following explanation is related to a ranch creation - configuration since t
 <img width="716" height="1130" alt="image" src="https://github.com/user-attachments/assets/29261fac-7444-4891-9f58-5391ca47ffe9" />
 <img width="972" height="849" alt="image" src="https://github.com/user-attachments/assets/8a11d3cd-ac1b-49d7-9a4e-918f96543dde" />
 <img width="1540" height="1119" alt="image" src="https://github.com/user-attachments/assets/3cf9afd2-0703-4e50-bc9e-133e75dfacd7" />
+<img width="1338" height="980" alt="image" src="https://github.com/user-attachments/assets/c99c3be0-fc73-4951-9ad6-363371be84be" />
+<img width="1205" height="709" alt="image" src="https://github.com/user-attachments/assets/0ce50e7a-b266-4654-956c-d0dcb13da352" />
+<img width="926" height="727" alt="image" src="https://github.com/user-attachments/assets/fac5a723-e3f7-43b0-b72e-548fe8d4257b" />
 
 4. **CauldronObject** : This requires the object placement to place the collected - picked up poop from the animals to create the fertilizer through a proccess.
 

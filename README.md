@@ -35,3 +35,11 @@ The following explanation is related to a ranch creation - configuration since t
 4. **CauldronObject** : This requires the object placement to place the collected - picked up poop from the animals to create the fertilizer through a proccess.
 
 <img width="1178" height="961" alt="image" src="https://github.com/user-attachments/assets/19de1cbb-700d-4904-a6fa-4538e6b2a81a" />
+
+5. **DeliverProductCoords** This is for delivering the collected product (milk) jug from the cows into the milk container object (MilkContainerCoords).
+
+6. **CowFoodCoords** This is for delivering the picked up haybale for feeding the cows. At first, you need to create nearby a hay pickup location from `Config.HayPickups`.
+
+<img width="1477" height="1039" alt="image" src="https://github.com/user-attachments/assets/97b89abb-44c5-48ed-95d4-80e2494dbc1d" />
+<img width="1165" height="840" alt="image" src="https://github.com/user-attachments/assets/919c3861-3e3d-4867-9664-f0db24f3c288" />
+<img width="1441" height="1009" alt="image" src="https://github.com/user-attachments/assets/81a8e4f6-05a7-4856-9302-7bafeb42a53d" />

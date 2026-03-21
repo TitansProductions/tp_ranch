@@ -28,7 +28,7 @@ The following explanation is related to a ranch creation - configuration since t
 
 <img width="1160" height="862" alt="image" src="https://github.com/user-attachments/assets/e8cb68e1-ba32-46a8-af26-d984743d9b93" />
 
-2. **WaterBarrelCoord** : This requires the coords to add water for the animals, otherwise those animals will die if they are left without any water available. When the barrel contains water, you don't have to do anything else, it just retrives the required values based on your animals and their thirst consumption.
+2. **WaterBarrelCoord** : This requires the coords to add water for the animals, otherwise those animals will die if they are left without any water available. When the barrel contains water, you don't have to do anything else, it just retrives the required values based on your animals and their thirst consumption. By default, we support **TP Farming** script for using the water barrel pouring system - you can use your own through `client/escrow_ignore.lua` file which also has **TP Farming** exports inside as examples.
 
 <img width="1311" height="960" alt="image" src="https://github.com/user-attachments/assets/dddaa9fe-4945-4134-abb9-578ec4f20fb6" />
 <img width="911" height="912" alt="image" src="https://github.com/user-attachments/assets/000b84de-1421-41d7-9e2c-b17c93640a1f" />

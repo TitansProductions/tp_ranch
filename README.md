@@ -31,3 +31,7 @@ The following explanation is related to a ranch creation - configuration since t
 `PitchForkObjectCoords` : This requires the object placement for picking up poop from cows or sheeps to make a fertilizer.
 
 <img width="716" height="1130" alt="image" src="https://github.com/user-attachments/assets/29261fac-7444-4891-9f58-5391ca47ffe9" />
+
+`CauldronObject` : This requires the object placement to place the collected - picked up poop from the animals to create the fertilizer through a proccess.
+
+<img width="1178" height="961" alt="image" src="https://github.com/user-attachments/assets/19de1cbb-700d-4904-a6fa-4538e6b2a81a" />

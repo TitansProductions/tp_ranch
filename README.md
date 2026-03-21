@@ -38,7 +38,14 @@ The following explanation is related to a ranch creation - configuration since t
 
 5. **DeliverProductCoords** This is for delivering the collected product (milk) jug from the cows into the milk container object (MilkContainerCoords).
 
-6. **CowFoodCoords** This is for delivering the picked up haybale for feeding the cows. At first, you need to create nearby a hay pickup location from `Config.HayPickups`.
+<img width="2040" height="1310" alt="image" src="https://github.com/user-attachments/assets/1c8d0dd3-9ee6-4420-9533-dc1bcc1a8dd1" />
+
+<img width="1482" height="972" alt="image" src="https://github.com/user-attachments/assets/a86004b6-53fc-4c1b-97b3-773df68b2b49" />
+<img width="1215" height="796" alt="image" src="https://github.com/user-attachments/assets/b322ce83-921c-411d-88e0-9a9a66b9e4ec" />
+<img width="1268" height="678" alt="image" src="https://github.com/user-attachments/assets/55679f60-c8c7-45e0-b127-abf859b33ffb" />
+<img width="1022" height="602" alt="image" src="https://github.com/user-attachments/assets/cdc9d101-ba66-48fc-9f56-7b51966ae00f" />
+
+7. **CowFoodCoords** This is for delivering the picked up haybale for feeding the cows. At first, you need to create nearby a hay pickup location from `Config.HayPickups`.
 
 <img width="1477" height="1039" alt="image" src="https://github.com/user-attachments/assets/97b89abb-44c5-48ed-95d4-80e2494dbc1d" />
 <img width="1165" height="840" alt="image" src="https://github.com/user-attachments/assets/919c3861-3e3d-4867-9664-f0db24f3c288" />

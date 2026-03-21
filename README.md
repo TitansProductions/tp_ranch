@@ -31,6 +31,9 @@ The following explanation is related to a ranch creation - configuration since t
 2. **WaterBarrelCoord** : This requires the coords to add water for the animals, otherwise those animals will die if they are left without any water available. When the barrel contains water, you don't have to do anything else, it just retrives the required values based on your animals and their thirst consumption.
 
 <img width="1311" height="960" alt="image" src="https://github.com/user-attachments/assets/dddaa9fe-4945-4134-abb9-578ec4f20fb6" />
+<img width="911" height="912" alt="image" src="https://github.com/user-attachments/assets/000b84de-1421-41d7-9e2c-b17c93640a1f" />
+<img width="1019" height="860" alt="image" src="https://github.com/user-attachments/assets/fb655363-11a4-4d43-8c04-39b36c7a7fd5" />
+
 
 3. **PitchForkObjectCoords** : This requires the object placement for picking up poop from cows or sheeps to make a fertilizer.
 

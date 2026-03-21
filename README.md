@@ -1,5 +1,5 @@
-# TP RANCH
 
+# Q & A:
 
 ## How to create a ranch:
 

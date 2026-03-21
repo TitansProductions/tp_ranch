@@ -50,3 +50,8 @@ The following explanation is related to a ranch creation - configuration since t
 <img width="1477" height="1039" alt="image" src="https://github.com/user-attachments/assets/97b89abb-44c5-48ed-95d4-80e2494dbc1d" />
 <img width="1165" height="840" alt="image" src="https://github.com/user-attachments/assets/919c3861-3e3d-4867-9664-f0db24f3c288" />
 <img width="1441" height="1009" alt="image" src="https://github.com/user-attachments/assets/81a8e4f6-05a7-4856-9302-7bafeb42a53d" />
+
+8. **FeedbagStandCoords** This is related to the chicken(s), it is the feedbag hang object to pickup corn and feed the chickens. This also requires a delivery from `Config.CornPickups`.
+
+<img width="1521" height="845" alt="image" src="https://github.com/user-attachments/assets/4ca70b55-8fff-4f22-aaf7-2cfec3e22e65" />
+<img width="1144" height="961" alt="image" src="https://github.com/user-attachments/assets/3b3cedf1-caba-4767-8d82-309e8e537c72" />

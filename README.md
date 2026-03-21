@@ -51,7 +51,12 @@ The following explanation is related to a ranch creation - configuration since t
 <img width="1165" height="840" alt="image" src="https://github.com/user-attachments/assets/919c3861-3e3d-4867-9664-f0db24f3c288" />
 <img width="1441" height="1009" alt="image" src="https://github.com/user-attachments/assets/81a8e4f6-05a7-4856-9302-7bafeb42a53d" />
 
-8. **FeedbagStandCoords** This is related to the chicken(s), it is the feedbag hang object to pickup corn and feed the chickens. This also requires a delivery from `Config.CornPickups`.
+8. **FeedbagStandCoords** and **ChickenFoodCoords** This is related to the chicken(s), it is the feedbag hang object to pickup corn and feed the chickens. This also requires a delivery from `Config.CornPickups`.
 
 <img width="1521" height="845" alt="image" src="https://github.com/user-attachments/assets/4ca70b55-8fff-4f22-aaf7-2cfec3e22e65" />
 <img width="1144" height="961" alt="image" src="https://github.com/user-attachments/assets/3b3cedf1-caba-4767-8d82-309e8e537c72" />
+<img width="1492" height="882" alt="image" src="https://github.com/user-attachments/assets/f1bf02e2-347f-42fb-9183-e7be47203c17" />
+<img width="1143" height="962" alt="image" src="https://github.com/user-attachments/assets/889b45dd-4106-43a5-99a9-149e5c8533ea" />
+<img width="970" height="496" alt="image" src="https://github.com/user-attachments/assets/5e7d750e-c188-4483-90f0-44330ae3e710" />
+<img width="1001" height="723" alt="image" src="https://github.com/user-attachments/assets/efc7cfe9-bfb9-498d-9e76-27f6c151c4e5" />
+<img width="1379" height="812" alt="image" src="https://github.com/user-attachments/assets/bc0991eb-0360-49b5-9225-097b49b0b975" />

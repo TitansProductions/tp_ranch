@@ -46,7 +46,6 @@ The following explanation is related to a ranch creation - configuration since t
 <img width="1215" height="796" alt="image" src="https://github.com/user-attachments/assets/b322ce83-921c-411d-88e0-9a9a66b9e4ec" />
 <img width="1268" height="678" alt="image" src="https://github.com/user-attachments/assets/55679f60-c8c7-45e0-b127-abf859b33ffb" />
 <img width="1022" height="602" alt="image" src="https://github.com/user-attachments/assets/cdc9d101-ba66-48fc-9f56-7b51966ae00f" />
-<img width="1168" height="782" alt="image" src="https://github.com/user-attachments/assets/95c0ae4e-1209-4bff-b113-c87f127749ca" />
 
 7. **CowFoodCoords** This is for delivering the picked up haybale for feeding the cows. At first, you need to create nearby a hay pickup location from `Config.HayPickups`.
 

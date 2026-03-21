@@ -16,6 +16,10 @@ On `client/escrow_ignore.lua` file, we provide you (3) functions that you can im
 1. To clear the area such as trees, bushes, grass, you can use: https://github.com/Spooni-Development/spooni_vegmod (SPOONI VEGMOD)
 2. To add furnitures - objects you can use a script that i provide for free: https://github.com/TitansProductions/tp_objectloader
 
+## How can you create the best ranches.
+
+We personally use SPOONI `Spooni_Stables_pack` and `Spooni_Stables2` which are the best custom streamed objects to be used for creating ranches. As mentioned above, if you already have those or you buy them from SPOONI, you can use https://github.com/TitansProductions/tp_objectloader which is our objectloader for placing objects to the desired positions without streaming but only through a configuration file.
+
 # Configuration Tutorials & Tips
 
 The following explanation is related to a ranch creation - configuration since there are a lot of features and options. We will start from each configuration option which can be hard to understand what it requires.

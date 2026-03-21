@@ -5,7 +5,7 @@
 
 1. Creating a ranch is through `config/config_ranches.lua` configuration file and not through a command or an in-game menu. By that, you can easily modify a ranch anytime.
 
-## How to implement a bucket system for the thirst consumption.
+## How to implement a bucket system for the animals thirst consumption.
 
 On `client/escrow_ignore.lua` file, we provide you (3) functions that you can implement the script of yours or another developer's for using the bucket properly.
 

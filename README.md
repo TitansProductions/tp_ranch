@@ -15,3 +15,5 @@ On `client/escrow_ignore.lua` file, we provide you (3) functions that you can im
 
 1. To clear the area such as trees, bushes, grass, you can use: https://github.com/Spooni-Development/spooni_vegmod (SPOONI VEGMOD)
 2. To add furnitures - objects you can use a script that i provide for free: https://github.com/TitansProductions/tp_objectloader
+
+# Configuration Tutorials & Tips

@@ -6,7 +6,7 @@ We personally use SPOONI `Spooni_Stables_pack` and `Spooni_Stables2` which are t
 
 ## __Create new ranch areas:__
 
-I personally suggest using our free script which is [**TP Object Loader**](https://github.com/TitansProductions/tp_objectloader) is used to create and spawn objects on the desired locations directly from the configuration file, those objects are client - side with a rendering system to properly load and unload when being nearby / not. You will no longer need any ymaps or xml files. 
+I personally suggest using our free script which is [**TP Object Loader**](https://github.com/TitansProductions/tp_objectloader) - create and spawn objects on the desired locations directly from the configuration file, those objects are client - side with a rendering system to properly load and unload when being nearby / not. You will no longer need any ymaps or xml files. 
 
 ## How to clear the area around a ranch
 

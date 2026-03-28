@@ -2,7 +2,7 @@
 
 ## __Custom Props / Objects:__
 
-We personally use SPOONI `Spooni_Stables_pack` and `Spooni_Stables2` which are the best custom streamed objects to be used for creating ranches. As mentioned above, if you already have those or you buy them from SPOONI, you can use https://github.com/TitansProductions/tp_objectloader which is our objectloader for placing objects to the desired positions without streaming but only through a configuration file.
+We personally use SPOONI `Spooni_Stables_pack` and `Spooni_Stables2` which are the best custom props / objects to be used for creating ranches. 
 
 ## __Create new ranch areas:__
 

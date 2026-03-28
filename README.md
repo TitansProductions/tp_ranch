@@ -1,8 +1,3 @@
-## How to clear the area around the ranch or add new furnitures - objects.
-
-1. To clear the area such as trees, bushes, grass, you can use: https://github.com/Spooni-Development/spooni_vegmod (SPOONI VEGMOD)
-2. To add furnitures - objects you can use a script that i provide for free: https://github.com/TitansProductions/tp_objectloader
-
 # How can you create the best ranches.
 
 ## __Custom Props / Objects:__
@@ -12,6 +7,10 @@ We personally use SPOONI `Spooni_Stables_pack` and `Spooni_Stables2` which are t
 ## __Create new ranch areas:__
 
 I personally suggest using our free script which is [**TP Object Loader**](https://github.com/TitansProductions/tp_objectloader) is used to create and spawn objects on the desired locations directly from the configuration file, those objects are client - side with a rendering system to properly load and unload when being nearby / not. You will no longer need any ymaps or xml files. 
+
+## How to clear the area around a ranch
+
+To clear the area such as trees, bushes, grass, you can use: https://github.com/Spooni-Development/spooni_vegmod (SPOONI VEGMOD)
 
 # How to implement a bucket system for the animals thirst consumption.
 

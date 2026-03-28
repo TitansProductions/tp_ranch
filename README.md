@@ -18,7 +18,14 @@ On `client/escrow_ignore.lua` file, we provide you (3) functions that you can im
 
 ## How can you create the best ranches.
 
+__Custom Props / Objects:__
+
 We personally use SPOONI `Spooni_Stables_pack` and `Spooni_Stables2` which are the best custom streamed objects to be used for creating ranches. As mentioned above, if you already have those or you buy them from SPOONI, you can use https://github.com/TitansProductions/tp_objectloader which is our objectloader for placing objects to the desired positions without streaming but only through a configuration file.
+
+__Create new ranch areas:__
+
+I personally suggest using our free script which is [**TP Object Loader**](https://github.com/TitansProductions/tp_objectloader) is used to create and spawn objects on the desired locations directly from the configuration file, those objects are client - side with a rendering system to properly load and unload when being nearby / not. You will no longer need any ymaps or xml files. 
+
 
 # Configuration Tutorials & Tips
 

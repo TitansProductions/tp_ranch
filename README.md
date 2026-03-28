@@ -1,8 +1,8 @@
 # How can you create the best ranches.
 
-## __Custom Props / Objects:__
+## __Extra Custom Props / Objects:__
 
-We personally use SPOONI `Spooni_Stables_pack` and `Spooni_Stables2` which are the best custom props / objects to be used for creating ranches. 
+For having more props / objects for creating a ranch, i personally suggest the ones i use from SPOONI `Spooni_Stables_pack` and `Spooni_Stables2` which are the best custom props / objects to be used for creating ranches. 
 
 ## __Create new ranch areas:__
 

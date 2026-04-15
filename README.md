@@ -26,9 +26,19 @@ To edit / modify an animal is actually very difficult but once you learn it, it 
 
 The only possible way is by modifying through the tp_ranch database table where animals column is located. 
 
+Keep in mind! The script or the server must be stopped, otherwise it will not load the new replaced data.
+
 The easiest way is by `selecting` & `copying` animals database column (the data that it contains) and then, use **Visual Studio Code** to `paste` and edit manually on the desired animal the age, thirst, hunger, died (death state), product_duration or even sex (gender).
 
 1. **age** - The age is in minutes, that means if you want your animal to be 5 years old, you have to calculate that in real days ( 5 * 24 * 60 ) which is **7200** (of course easiest is to search in google: 5 days in minutes)
+
+2. **thirst & hunger** - 0 = min, 1000 = max
+
+3. **died** - 0 = (alive), 1 = (dead)
+
+4. **product_duration** - 0 = (cooldown reset for production), > 0 (bigger than 0, means cooldown is left in minutes to allow production - such as milking, shearing, etc).
+
+5. **sex** - 0 = (male), 1 = (female)
 
 # Configuration Tutorials & Tips
 

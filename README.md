@@ -40,6 +40,10 @@ The easiest way is by `selecting` & `copying` animals database column (the data 
 
 5. **sex** - 0 = (male), 1 = (female)
 
+Once you done editing the desired changes, copy the data and paste it on animals database table column (as mentioned above, the script or the server must be stopped).
+
+In case you edited something and it is now corrupted and not loading the animals or receiving errors after your manual edit, i suggest removing animals data and inserting inside `[]` which clears and removes all your animals.
+
 # Configuration Tutorials & Tips
 
 The following explanation is related to a ranch creation - configuration since there are a lot of features and options. We will start from each configuration option which can be hard to understand what it requires.

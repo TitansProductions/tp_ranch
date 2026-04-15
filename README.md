@@ -20,6 +20,16 @@ On `client/escrow_ignore.lua` file, we provide you (3) functions that you can im
 
 *By default, we provide you TP Farming support in case you are having it.*
 
+# How to edit existing animal's data
+
+To edit / modify an animal is actually very difficult but once you learn it, it can be done very easily. 
+
+The only possible way is by modifying through the tp_ranch database table where animals column is located. 
+
+The easiest way is by `selecting` & `copying` animals database column (the data that it contains) and then, use **Visual Studio Code** to `paste` and edit manually on the desired animal the age, thirst, hunger, died (death state), product_duration or even sex (gender).
+
+1. **age** - The age is in minutes, that means if you want your animal to be 5 years old, you have to calculate that in real days ( 5 * 24 * 60 ) which is **7200** (of course easiest is to search in google: 5 days in minutes)
+
 # Configuration Tutorials & Tips
 
 The following explanation is related to a ranch creation - configuration since there are a lot of features and options. We will start from each configuration option which can be hard to understand what it requires.

@@ -96,3 +96,14 @@ The following explanation is related to a ranch creation - configuration since t
 <img width="970" height="496" alt="image" src="https://github.com/user-attachments/assets/5e7d750e-c188-4483-90f0-44330ae3e710" />
 <img width="1001" height="723" alt="image" src="https://github.com/user-attachments/assets/efc7cfe9-bfb9-498d-9e76-27f6c151c4e5" />
 <img width="1379" height="812" alt="image" src="https://github.com/user-attachments/assets/bc0991eb-0360-49b5-9225-097b49b0b975" />
+
+# Development Section
+
+1. Add feeding capacity for cows and goats.
+
+```lua
+--- @param ranchId - requires an existing ranch id.
+
+-- You don't add your own feeding capacity amount, it adds directly from `AddHungerCapacityOnHaybaleDeliver` config option where config_animals is.
+TriggerEvent("tp_ranch:server:shared:add_feeding_capacity", ranchId) -- THIS IS A SERVER EVENT
+```

@@ -99,6 +99,8 @@ The following explanation is related to a ranch creation - configuration since t
 
 # Development Section
 
+## Server Events
+
 1. Add feeding capacity for cows and goats.
 
 ```lua

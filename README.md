@@ -102,8 +102,25 @@ The following explanation is related to a ranch creation - configuration since t
 1. Add feeding capacity for cows and goats.
 
 ```lua
---- @param ranchId - requires an existing ranch id.
 
 -- You don't add your own feeding capacity amount, it adds directly from `AddHungerCapacityOnHaybaleDeliver` config option where config_animals is.
+--- @param ranchId - requires an existing ranch id.
 TriggerEvent("tp_ranch:server:shared:add_feeding_capacity", ranchId) -- THIS IS A SERVER EVENT
+```
+
+2. Add water barrel capacity
+
+```lua
+-- You don't add your own add_barrel_capacity capacity amount, it adds directly from `Config.WaterSystem.AddBarrelCapacityOnBucketPouring` config option where config_animals is.
+--- @param ranchId - requires an existing ranch id.
+TriggerEvent("tp_ranch:server:shared:add_barrel_capacity", ranchId) -- THIS IS A SERVER EVENT
+```
+
+3. Add feeding capacity for chickens
+
+```lua
+
+-- You don't add your own feeding capacity amount, it adds directly from `AddProductCapacityCornOnDeliver` config option where config_animals is.
+--- @param ranchId - requires an existing ranch id.
+TriggerEvent("tp_ranch:server:shared:add_chicken_feeding_capacity", ranchId) -- THIS IS A SERVER EVENT
 ```

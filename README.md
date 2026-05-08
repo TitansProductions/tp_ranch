@@ -105,7 +105,7 @@ The following explanation is related to a ranch creation - configuration since t
 
 -- You don't need to add your own feeding capacity amount, it adds directly from `AddHungerCapacityOnHaybaleDeliver` config option where config_animals is.
 --- @param ranchId - requires an existing ranch id.
---- @param amount - a non required parameter, it is used to add your own amount of capacity, if not used, it will use the mentioned option.
+--- @param amount - a non required parameter, it is used to add your own amount of capacity, if not used, it will use the mentioned option (max value is 1000 = 100% )
 TriggerEvent("tp_ranch:server:shared:add_feeding_capacity", ranchId, amount) -- THIS IS A SERVER EVENT
 ```
 
@@ -114,7 +114,7 @@ TriggerEvent("tp_ranch:server:shared:add_feeding_capacity", ranchId, amount) -- 
 ```lua
 -- You don't need to add your own add_barrel_capacity capacity amount, it adds directly from `Config.WaterSystem.AddBarrelCapacityOnBucketPouring` config option where config_animals is.
 --- @param ranchId - requires an existing ranch id.
---- @param amount - a non required parameter, it is used to add your own amount of capacity, if not used, it will use the mentioned option.
+--- @param amount - a non required parameter, it is used to add your own amount of capacity, if not used, it will use the mentioned option (max value is 1000 = 100% )
 TriggerEvent("tp_ranch:server:shared:add_barrel_capacity", ranchId, amount) -- THIS IS A SERVER EVENT
 ```
 
@@ -124,6 +124,6 @@ TriggerEvent("tp_ranch:server:shared:add_barrel_capacity", ranchId, amount) -- T
 
 -- You don't need to add your own feeding capacity amount, it adds directly from `AddProductCapacityCornOnDeliver` config option where config_animals is.
 --- @param ranchId - requires an existing ranch id.
---- @param amount - a non required parameter, it is used to add your own amount of capacity, if not used, it will use the mentioned option.
+--- @param amount - a non required parameter, it is used to add your own amount of capacity, if not used, it will use the mentioned option (max value is 1000 = 100% )
 TriggerEvent("tp_ranch:server:shared:add_chicken_feeding_capacity", ranchId, amount) -- THIS IS A SERVER EVENT
 ```

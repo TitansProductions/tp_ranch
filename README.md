@@ -44,6 +44,40 @@ Once you done editing the desired changes, copy the data and paste it on animals
 
 In case you edited something and it is now corrupted and not loading the animals or receiving errors after your manual edit, i suggest removing animals data and inserting inside `[]` which clears and removes all your animals.
 
+
+# Development Section
+
+## Server Events
+
+1. Add feeding capacity for cows and goats.
+
+```lua
+
+-- You don't need to add your own feeding capacity amount, it adds directly from `AddHungerCapacityOnHaybaleDeliver` config option where config_animals is.
+--- @param ranchId - requires an existing ranch id.
+--- @param amount - a non required parameter, it is used to add your own amount of capacity, if not used, it will use the mentioned option (max value is 1000 = 100% )
+TriggerEvent("tp_ranch:server:shared:add_feeding_capacity", ranchId, amount) -- THIS IS A SERVER EVENT
+```
+
+2. Add water barrel capacity
+
+```lua
+-- You don't need to add your own add_barrel_capacity capacity amount, it adds directly from `Config.WaterSystem.AddBarrelCapacityOnBucketPouring` config option where config_animals is.
+--- @param ranchId - requires an existing ranch id.
+--- @param amount - a non required parameter, it is used to add your own amount of capacity, if not used, it will use the mentioned option (max value is 1000 = 100% )
+TriggerEvent("tp_ranch:server:shared:add_barrel_capacity", ranchId, amount) -- THIS IS A SERVER EVENT
+```
+
+3. Add feeding capacity for chickens
+
+```lua
+
+-- You don't need to add your own feeding capacity amount, it adds directly from `AddProductCapacityCornOnDeliver` config option where config_animals is.
+--- @param ranchId - requires an existing ranch id.
+--- @param amount - a non required parameter, it is used to add your own amount of capacity, if not used, it will use the mentioned option (max value is 1000 = 100% )
+TriggerEvent("tp_ranch:server:shared:add_chicken_feeding_capacity", ranchId, amount) -- THIS IS A SERVER EVENT
+```
+
 # Configuration Tutorials & Tips
 
 The following explanation is related to a ranch creation - configuration since there are a lot of features and options. We will start from each configuration option which can be hard to understand what it requires.
@@ -96,36 +130,3 @@ The following explanation is related to a ranch creation - configuration since t
 <img width="970" height="496" alt="image" src="https://github.com/user-attachments/assets/5e7d750e-c188-4483-90f0-44330ae3e710" />
 <img width="1001" height="723" alt="image" src="https://github.com/user-attachments/assets/efc7cfe9-bfb9-498d-9e76-27f6c151c4e5" />
 <img width="1379" height="812" alt="image" src="https://github.com/user-attachments/assets/bc0991eb-0360-49b5-9225-097b49b0b975" />
-
-# Development Section
-
-## Server Events
-
-1. Add feeding capacity for cows and goats.
-
-```lua
-
--- You don't need to add your own feeding capacity amount, it adds directly from `AddHungerCapacityOnHaybaleDeliver` config option where config_animals is.
---- @param ranchId - requires an existing ranch id.
---- @param amount - a non required parameter, it is used to add your own amount of capacity, if not used, it will use the mentioned option (max value is 1000 = 100% )
-TriggerEvent("tp_ranch:server:shared:add_feeding_capacity", ranchId, amount) -- THIS IS A SERVER EVENT
-```
-
-2. Add water barrel capacity
-
-```lua
--- You don't need to add your own add_barrel_capacity capacity amount, it adds directly from `Config.WaterSystem.AddBarrelCapacityOnBucketPouring` config option where config_animals is.
---- @param ranchId - requires an existing ranch id.
---- @param amount - a non required parameter, it is used to add your own amount of capacity, if not used, it will use the mentioned option (max value is 1000 = 100% )
-TriggerEvent("tp_ranch:server:shared:add_barrel_capacity", ranchId, amount) -- THIS IS A SERVER EVENT
-```
-
-3. Add feeding capacity for chickens
-
-```lua
-
--- You don't need to add your own feeding capacity amount, it adds directly from `AddProductCapacityCornOnDeliver` config option where config_animals is.
---- @param ranchId - requires an existing ranch id.
---- @param amount - a non required parameter, it is used to add your own amount of capacity, if not used, it will use the mentioned option (max value is 1000 = 100% )
-TriggerEvent("tp_ranch:server:shared:add_chicken_feeding_capacity", ranchId, amount) -- THIS IS A SERVER EVENT
-```

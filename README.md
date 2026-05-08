@@ -45,7 +45,7 @@ Once you done editing the desired changes, copy the data and paste it on animals
 In case you edited something and it is now corrupted and not loading the animals or receiving errors after your manual edit, i suggest removing animals data and inserting inside `[]` which clears and removes all your animals.
 
 
-# Development Section
+# Development Section & API Exports
 
 ## Server Events
 

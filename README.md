@@ -6,9 +6,9 @@ For having more props / objects for creating a ranch, i personally suggest the o
 
 ## __Create new ranch areas:__
 
-I personally suggest using our free script which is [**TP Object Loader**](https://github.com/TitansProductions/tp_objectloader) - create and spawn objects on the desired locations directly from the configuration file, those objects are client - side with a rendering system to properly load and unload when being nearby / not. You will no longer need any ymaps or xml files. 
+I personally suggest using the objectloader we provide you to the script for creating and spawning objects on the desired locations directly from the configuration file, those objects are local with a rendering system to properly load and unload when being nearby / not. You will no longer need any ymaps or xml files. 
 
-*We already provide on the TP Object Loader the default ranch area and its objects / props - in case you dont see some props, it is because you are missing the SPOONI props that i have mentioned above.*
+*We already provide on the Object Loader folder the default ranch area and its objects / props - in case you dont see some props, it is because you are missing the SPOONI props that i have mentioned above.*
 
 ## How to clear the area around a ranch
 

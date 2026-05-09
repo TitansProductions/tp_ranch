@@ -47,6 +47,65 @@ In case you edited something and it is now corrupted and not loading the animals
 
 # Development Section & API Exports
 
+## Exports
+
+### Server Side
+
+API Getter Function
+
+```lua
+local RanchAPI = exports.tp_ranch:getAPI()
+```
+
+1. Get all ranch data
+
+```lua
+--- @return table form.
+local Ranches = RanchAPI.GetRanches()
+```
+
+2. Get all player owned ranch ids.
+
+```lua
+--- @return table form.
+--- @param source - requires the online player source id.
+local OwnedRanches = RanchAPI.GetPlayerOwnedRanchIds(source)
+```
+
+3. Get all player owned ranch data.
+
+```lua
+--- @return table form.
+--- @param source - requires the online player source id.
+local OwnedRanches = RanchAPI.GetPlayerOwnedRanchesData(source)
+```
+
+4. Set ranch ownership by player source.
+
+```lua
+--- @param ranchId - requires an existing ranch index name.
+--- @param source - requires the online player source id.
+RanchAPI.SetRanchOwnershipBySource(ranchId, source)
+```
+
+5. Set ranch ownership by player identifiers.
+
+```lua
+--- @param ranchId - requires an existing ranch index name.
+--- @param identifier - requires a player steam hex.
+--- @param charidentifier - requires a player character id.
+RanchAPI.SetRanchOwnershipByIdentifiers(ranchId, identifier, charidentifier)
+```
+
+6. Remove ranch ownership by player identifiers.
+
+```lua
+--- @param ranchId - requires an existing ranch index name.
+--- @param identifier - requires a player steam hex.
+--- @param charidentifier - requires a player character id.
+RanchAPI.RemovePlayerRanchOwnershipByIdentifiers(ranchId, identifier, charidentifier)
+```
+
 ## Server Events
 
 1. Add feeding capacity for cows and goats.
